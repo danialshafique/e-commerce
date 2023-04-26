@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- -------------------------bootstrap linking-------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <!-- -------------------------bootstrap linking-------------------- -->
+    <!-- Responsive Link Start -->
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <!-- Responsive Link End -->
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Fontawesome Link Start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fontawesome Link End -->
+
+    <!-- ---------------------------------style-------------------------------- -->
+
+    <link rel="stylesheet" href="./styles/phone-detail.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <!-- -------------------------------style-------------------------------- -->
+</head>
+
+<body>
+
+
+    <header id="website-header">
+        <!-- -------------navbar--------------- -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logo Here</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog-main.html">Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="header-contact-info">
+                        <span class="mail-info">
+                            <img src="./assets/mail-icon.svg" alt="" />
+                            <a>ecommerce@gmail.com</a>
+                        </span>
+
+                        <span class="phone-info">
+                            <img src="./assets/phone-icon.svg" alt="" />
+                            <a>+92 322 7654456</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- -------------navbar--------------- -->
+
+        <!-- -----------------------header-top-bar--------------------- -->
+        <div class="header-top-bar">
+            <div class="top-bar-content">
+                <div class="top-bar-content-child top-bar-category">
+                    <img src="./assets/category-icon.svg" alt="" class="me-2" />
+                    <h3 class="pt-2">Shop By Category</h3>
+                </div>
+
+                <div class="top-bar-content-child search-child">
+                    <input type="email" placeholder="Type Here..." class="search-child-input" />
+                    <span>
+                        <button>Search</button>
+                    </span>
+                </div>
+
+                <div class="top-bar-content-child d-flex justify-content-center top-bar-login-detail">
+                    <img src="./assets/login-icon.svg" alt="" class="me-2" />
+                    <p class="text-center mt-3">Login / Sign up</p>
+                </div>
+            </div>
+        </div>
+        <!-- -----------------------header-top-bar--------------------- -->
+    </header>
+
+    <!-- _______________________________________WEBSITE-HEADER DONE================================= -->
+
+    <!-- <div class="homepage-hero-section "> -->
+    <div class="container-fluid phone-detail mb-3">
+        <div class="row">
+            <div class="col-lg-3 phone-left-side mt-5">
+                <form>
+                    <input type="search" placeholder="Search Product...">
+                    <a href="#">
+                        <button>
+                            Search
+                        </button>
+                    </a>
+                </form>
+                <div class="phone-left-side-catagory mt-4">
+                    <h4>
+                        Catageory
+                    </h4>
+                    <div>
+                        <input type="checkbox"> &nbsp Acessories & Appliances
+                        <span class="float-end">(04)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp TV & Mobiles
+                        <span class="float-end">(01)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Camera, Audio & Videos
+                        <span class="float-end">(03)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Headphones & Speakers
+                        <span class="float-end">(07)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Computer Acessories
+                        <span class="float-end">(00)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Tablet & Elite Book
+                        <span class="float-end">(10)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Watches & Head Phone
+                        <span class="float-end">(01)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Home Appliances
+                        <span class="float-end">(04)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Cars & Parts
+                        <span class="float-end">(09)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Smart Homes & Appliances
+                        <span class="float-end">(07)</span>
+                    </div>
+                </div>
+                <div class="phone-left-side-brand mt-4">
+                    <h4>
+                        Brand
+                    </h4>
+                    <div>
+                        <input type="checkbox"> &nbsp Apple
+                        <span class="float-end">(02)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Samsung
+                        <span class="float-end">(01)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Oppo
+                        <span class="float-end">(03)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Redmi
+                        <span class="float-end">(07)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Huawei
+                        <span class="float-end">(00)</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> &nbsp Lenovo
+                        <span class="float-end">(10)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 mt-5 ps-lg-5">
+                <div class="row">
+                    <div class="col-lg-6 text-center phone-right-side-about-phone">
+                        <img src="assets/image/detail/phone-detail/phone.png" alt="">
+                    </div>
+                    <div class="col-lg-6 mt-5">
+                        <h2>
+                            iPhone 14 Pro Max 256 GB
+                        </h2>
+                        <div class="phone-stars">
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <i class="fa-solid fa-star"></i>
+                            &nbsp;&nbsp;
+                            (4.5)
+                            <p class="mt-4">
+                                Lorem Ipsum is simply dummy text of the printing and type setting
+                                industry. Lorem Ipsum has been the industry's standard dummy text
+                                ever since the 1500s
+                            </p>
+
+                            <a href="#">
+                                <button class="mt-4 phone-add-to-cart-btn">
+                                    Add To Cart
+                                </button>
+                            </a>
+
+                            <div class="phone-share mt-5">
+                                <span>
+                                    <h4>
+                                        Share
+                                        <a href="">
+                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                        &nbsp;
+                                        <a href="">
+                                            <i class="fa-brands fa-twitter"></i></a> &nbsp;
+                                        <a href="">
+                                            <i class="fa-brands fa-pinterest-p"></i></a>
+                                        &nbsp;
+                                        <a href="">
+                                            <i class="fa-brands fa-google"></i></a>
+                                    </h4>
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-12 mt-4 phone-three-btn">
+                        <h3> Description</h3>
+                        <p class="mt-3">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut modi ipsum et iusto totam
+                            veniam reiciendis, cumque a ad labore autem eos necessitatibus perferendis sapiente
+                            atque
+                            alias ipsa quae magni. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Perspiciatis aliquam doloremque autem ullam sunt tempora laboriosam.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius consequatur provident,
+                            vitae
+                            alias molestias facilis nostrum praesentium voluptatibus illo obcaecati aliquam
+                            accusamus
+                            rem ex beatae quae laudantium velit fugit? Quas?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- _______________________________________________________Footer__________________________________________________ -->
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="footer-content">
+                <div class="footer-row about-row">
+                    <h2 class="footer-row-heading">About</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Pellentesque luctus mi dui, vel rutrum massa vehicula non. Orci
+                        varius natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus
+                    </p>
+                </div>
+                <div class="footer-row quick-row">
+                    <h2 class="footer-row-heading">Quick Links</h2>
+                    <ul>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Article</a></li>
+                        <li><a href="">Help center</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">License</a></li>
+                        <li><a href="">Freebies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-row category-row">
+                    <h2 class="footer-row-heading">Category Links</h2>
+                    <ul>
+                        <li><a href="">Graphics</a></li>
+                        <li><a href="">Video</a></li>
+                        <li><a href="">Presentation</a></li>
+                        <li><a href="">Photos</a></li>
+                        <li><a href="">Font</a></li>
+                        <li><a href="">Web template</a></li>
+                    </ul>
+                </div>
+                <div class="footer-row follow-row">
+                    <div class="follow-heading-and-social-links">
+                        <h2 class="footer-row-heading">Follow Us</h2>
+                        <div class="social-links">
+                            <img src="./assets/footer-social-1.svg" alt="" />
+                            <img src="./assets/footer-social-2.svg" alt="" />
+                            <img src="./assets/footer-social-3.svg" alt="" />
+                        </div>
+                    </div>
+
+                    <h3>Subscribe</h3>
+                    <p class="text-white">Send me tips, trends, freebies, updates & offers.</p>
+                    <div class="footer-email-input">
+                        <input type="email" placeholder="Email Address" class="footer-email-input-main" />
+                        <button>Search</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-rights">
+                <p>@2023 ElectronicShop-All rights reserved</p>
+                <p>Terms & Conditions Privacy</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- -------------------------bootstrap linking-------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <!-- -------------------------bootstrap linking-------------------- -->
+</body>
+
+</html>

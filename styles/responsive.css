@@ -1,0 +1,17 @@
+@media only screen and (max-width:767px) {
+    .phone-three-btn ul {
+        display: block;
+    }
+
+    .phone-three-btn ul li {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+    .phone-detail {
+        padding-left: 0px;
+
+    }
+}

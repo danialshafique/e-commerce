@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.phone-detail {
+    padding-left: 68px;
+
+}
+
+.phone-left-side form {
+    text-align: center;
+}
+
+.phone-left-side form input {
+    width: 100%;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 7px 0px;
+}
+
+.phone-left-side form input:focus {
+    outline: none;
+}
+
+.phone-left-side form input::placeholder {
+    color: gray;
+}
+
+.phone-left-side a {
+    text-decoration: none;
+}
+
+.phone-left-side a button {
+    border: 1px solid #2FC6BD;
+    width: 100%;
+    margin-top: 15px;
+    color: white;
+    background-color: #2FC6BD;
+    border-radius: 50px;
+    padding: 5px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+
+.phone-left-side a button:hover {
+    background-color: transparent;
+    color: #2FC6BD;
+}
+
+.phone-left-side-brand div,
+.phone-left-side-catagory div {
+    font-weight: 600;
+    color: gray;
+    line-height: 2;
+}
+
+.phone-right-side-about-phone {
+    border: 1px solid gray;
+    padding: 40px 0px;
+}
+
+.phone-stars {
+    color: gray;
+}
+
+.phone-stars span {
+    color: orange;
+}
+
+.phone-add-to-cart-btn {
+    color: #2FC6BD;
+    border: 1px solid #2FC6BD;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: 0.5s ease-in-out;
+}
+
+.phone-add-to-cart-btn:hover {
+    color: white;
+    background-color: #2FC6BD;
+}
+
+.phone-share h4 {
+    color: black;
+}
+
+.phone-share h4 i {
+    color: #2FC6BD;
+}
+
+
+
+.description {
+    margin: 0px;
+}
+
+@media screen and (min-width:320px) and (max-width:780px) {
+    .phone-detail {
+        padding: 30px;
+    }
+}
