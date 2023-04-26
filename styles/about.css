@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h2,
+h4 {
+    margin-bottom: 0;
+}
+
+
+/* <!-- _______________________________________________Introducing-About-US___________________________________________ --> */
+
+
+.introducing-about-us-main-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px 4vw 0 4vw;
+}
+
+.introducing-about-us-top {
+    flex-basis: 55%;
+}
+
+.introducing-about-us-top-img {
+    background: url("../assets/introducing-about-us-bg.jpg");
+    background-size: cover;
+    min-height: 480px;
+    border-radius: 25px;
+}
+
+.introducing-about-us-bottom {
+    flex-basis: 45%;
+
+}
+
+.introducing-about-us-bottom-div {
+    padding-left: 35px;
+    padding-top: 55px;
+}
+
+.introducing-about-us-bottom h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2FC6BD;
+    padding-bottom: 12px;
+}
+
+.introducing-about-us-bottom h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    padding-bottom: 8px;
+
+}
+
+.introducing-about-us-bottom p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 45px;
+}
+
+.introducing-about-us-bottom button {
+    border: 1px solid #2FC6BD;
+    border-radius: 19.5px;
+    padding: 10px 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1DD0C6;
+    background: transparent;
+    transition: .5s ease-in-out;
+}
+
+.introducing-about-us-bottom button:hover {
+    background-color: #1DD0C6;
+    color: #FFFFFF;
+    border: 1px solid #2FC6BD;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .introducing-about-us-top {
+        flex-basis: 100%;
+    }
+
+    .introducing-about-us-bottom {
+        flex-basis: 100%;
+
+    }
+
+    .introducing-about-us-bottom-div {
+        padding-left: 0;
+    }
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .introducing-about-us-top {
+        flex-basis: 50%;
+    }
+
+    .introducing-about-us-bottom {
+        flex-basis: 50%;
+
+    }
+
+    .introducing-about-us-bottom-div {
+        padding-top: 0px;
+    }
+}
+
+/* <!-- ______________________________________________What Make Us Different__________________________________________ --> */
+
+.what-make-us-different-content {
+    padding: 90px 4vw 0 4vw;
+}
+
+#what-make-us-different .section-heading {
+    display: flex;
+    justify-content: center;
+}
+
+#what-make-us-different .section-heading .heading-line-data {
+    flex-basis: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#what-make-us-different .section-heading .heading-line {
+    width: 100%;
+    height: 1.5px;
+    background: rgba(0, 0, 0, 0.35);
+    ;
+    text-align: center;
+}
+
+#what-make-us-different .section-heading h2 {
+    flex-basis: 30%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    /* margin-top: -19px; */
+}
+
+.what-make-us-different-heading-description p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #505050;
+    padding: 10px 10vw 0 10vw;
+}
+
+.what-make-us-different-cards-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.what-make-us-different-card {
+    flex-basis: 30%;
+}
+
+.what-make-us-different-card img {
+    width: 100%;
+    height: 261px;
+}
+
+.what-make-us-different-card h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    padding-top: 35px;
+
+}
+
+.what-make-us-different-card p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 0px;
+}
+
+
+@media screen and (min-width:320px) and (max-width: 1439px) {
+    #what-make-us-different .section-heading .heading-line-data {
+        display: none;
+    }
+
+    #what-make-us-different .section-heading h2 {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .what-make-us-different-cards-div {
+        justify-content: center;
+    }
+
+    .what-make-us-different-card h3 {
+        padding-top: 20px;
+    }
+
+    .what-make-us-different-card {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    .what-make-us-different-heading-description p {
+        padding: 10px 0vw 0 0vw;
+    }
+}
+
+
+/* <!-- ___________________________________________Motorola_____________________________ --> */
+.motorola-main-content {
+    padding: 90px 4vw 0 4vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.motorola-main-content-div1 {
+    flex-basis: 45%;
+    background: url('../assets/motorola-1.jpg');
+    background-size: cover;
+}
+
+.motorola-main-content-div2 {
+    flex-basis: 27.5%;
+    background: url('../assets/motorola-2.jpg');
+    background-size: cover;
+}
+
+.motorola-main-content-div3 {
+    flex-basis: 27.5%;
+    background: url('../assets/motorola-3.jpg');
+    background-size: cover;
+}
+
+.motorola-main-content-div {
+    height: 440px;
+}
+
+.motorola-main-content-data {
+    padding: 84px 15px 10px 15px;
+}
+
+.motorola-main-content-div1 h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.motorola-main-content-div1 h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2FC6BD;
+}
+
+.motorola-main-content-div p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-top: 105px;
+    padding-bottom: 15px;
+
+}
+
+.motorola-main-content-div button {
+    border: 1px solid #FFFFFF;
+    border-radius: 19.5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 9px 19px;
+    background: transparent;
+    transition: .5s ease-in-out;
+
+}
+
+.motorola-main-content-div button:hover {
+    background-color: #000000;
+    border: 1px solid #000000;
+
+}
+
+.motorola-main-content-div2 h3,
+.motorola-main-content-div3 h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.07em;
+
+    color: #FFFFFF;
+}
+
+.motorola-main-content-div2 h2,
+.motorola-main-content-div3 h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .motorola-main-content-div1 {
+        flex-basis: 100%;
+        border-radius: 0px;
+    }
+
+    .motorola-main-content-div2 {
+        flex-basis: 100%;
+    }
+
+    .motorola-main-content-div3 {
+        flex-basis: 100%;
+        border-radius: 0px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 989px) {
+    .motorola-main-content-div1 {
+        flex-basis: 40%;
+        border-radius: 0px;
+    }
+
+    .motorola-main-content-div2 {
+        flex-basis: 30%;
+    }
+
+    .motorola-main-content-div3 {
+        flex-basis: 30%;
+        border-radius: 0px;
+    }
+}
+
+
+
+/* <!-- _______________________________Our-Team __________________________________ --> */
+.out-team-main-content {
+    padding: 95px 4vw 0 4vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.out-team-main-content .our-team-top {
+    flex-basis: 35%;
+}
+
+.out-team-main-content .our-team-top h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.out-team-main-content .our-team-top p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 25px;
+}
+
+.out-team-main-content .our-team-top button {
+    border: 1px solid #2FC6BD;
+    border-radius: 19.5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #2FC6BD;
+    padding: 9px 19px;
+    background: transparent;
+    transition: .5s ease-in-out;
+}
+
+.out-team-main-content .our-team-top button:hover {
+    background-color: #2FC6BD;
+    color: #FFFFFF;
+}
+
+.out-team-main-content .our-team-bottom {
+    flex-basis: 65%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+.our-team-bottom-card {
+    width: 248px;
+}
+
+.our-team-bottom-card img {
+    width: 248px;
+    height: 276px;
+}
+
+.our-team-bottom-card h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 12px;
+}
+
+.our-team-bottom-card p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .out-team-main-content .our-team-top {
+        flex-basis: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+
+
+    .out-team-main-content .our-team-bottom {
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .our-team-bottom-card {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 989px) {
+    .out-team-main-content .our-team-top {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+
+
+    .out-team-main-content .our-team-bottom {
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .our-team-bottom-card {
+        margin: 50px 40px 0 40px;
+    }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1350px) {
+    .out-team-main-content .our-team-top {
+        flex-basis: 25%;
+    }
+
+    .out-team-main-content .our-team-bottom {
+        flex-basis: 75%;
+    }
+
+    .our-team-bottom-card {
+        width: 200px;
+    }
+
+    .our-team-bottom-card img {
+        width: 200px;
+        height: 250px;
+    }
+}
+
+
+/* <!-- ______________________________________About-us-testimonials____________________________________ --> */
+
+.about-testimonials-main-content {
+    padding: 95px 4vw 0 4vw;
+}
+
+.about-testimonials-main-content .swiper-slide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-testimonials-main-content .swiper-slide .swiper-top {
+    flex-basis: 30%;
+}
+
+.about-testimonials-main-content .swiper-slide .swiper-top img {
+    width: 490px;
+    height: 504px;
+}
+
+.about-testimonials-main-content .swiper-slide .swiper-bottom {
+    flex-basis: 60%;
+}
+
+.about-testimonials-main-content .swiper-slide .swiper-bottom h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+.about-testimonials-main-content .swiper-slide .swiper-bottom h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    color: #000000;
+}
+
+.about-testimonials-main-content .swiper-slide .swiper-bottom p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 70px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.about-testimonials-main-content .swiper-slide .swiper-bottom button {
+    border: 1px solid #2FC6BD;
+    border-radius: 19.5px;
+    padding: 9px 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #2FC6BD;
+    background: transparent;
+    transition: .5s ease-in-out;
+}
+
+.about-testimonials-main-content .swiper-slide .swiper-bottom button:hover {
+    background-color: #2FC6BD;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .about-testimonials-main-content .swiper-slide .swiper-top {
+        flex-basis: 100%;
+    }
+
+    .about-testimonials-main-content .swiper-slide .swiper-top img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .about-testimonials-main-content .swiper-slide .swiper-bottom {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .swiper-bottom-data {
+        padding-top: 50px;
+    }
+
+    .about-testimonials-main-content .swiper-slide .swiper-bottom p {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 989px) {
+    .about-testimonials-main-content .swiper-slide .swiper-top {
+        flex-basis: 47%;
+    }
+
+    .about-testimonials-main-content .swiper-slide .swiper-top img {
+        width: 100%;
+        height: 380px;
+    }
+
+    .about-testimonials-main-content .swiper-slide .swiper-bottom {
+        flex-basis: 47%;
+    }
+
+    .about-testimonials-main-content .swiper-slide .swiper-bottom p {
+        padding-bottom: 40px;
+    }
+}
+
+
+@media screen and (min-width: 990px) and (max-width: 1400px) {
+    .about-testimonials-main-content .swiper-slide .swiper-top {
+        flex-basis: 47%;
+    }
+
+    .about-testimonials-main-content .swiper-slide .swiper-top img {
+        width: 100%;
+        height: 430px;
+    }
+
+    .about-testimonials-main-content .swiper-slide .swiper-bottom {
+        flex-basis: 47%;
+    }
+
+    .about-testimonials-main-content .swiper-slide .swiper-bottom p {
+        padding-bottom: 40px;
+    }
+}
+
+
+/* <!-- ___________________________________________________OUR-BRANDS________________________________________ --> */
+
+#our-brands {
+    padding: 30px 4vw 0 4vw;
+}
+
+#our-brands .section-heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+#our-brands .section-heading .heading-line-data {
+    flex-basis: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#our-brands .section-heading .heading-line {
+    width: 100%;
+    height: 1.6px;
+    background: rgba(0, 0, 0, 0.35);
+    ;
+    text-align: center;
+}
+
+#our-brands .section-heading h2 {
+    flex-basis: 15%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    /* margin-top: -19px; */
+}
+
+.our-brands-logo-part {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 80px;
+
+}
+
+.our-brand-logo:nth-child(4) {
+    padding-top: 12px;
+}
+
+@media screen and (max-width: 1439px) {
+    #our-brands .section-heading .heading-line-data {
+        display: none;
+    }
+
+    #our-brands .section-heading h2 {
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .our-brands-logo-part {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1439px) {
+    .our-brands-logo-part {
+        justify-content: center;
+    }
+
+    .our-brand-logo {
+        padding: 0 20px;
+    }
+}

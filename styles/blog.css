@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h2,
+h4 {
+    margin-bottom: 0;
+}
+
+
+#blogs {
+    padding: 0px 4vw 95px 4vw;
+
+}
+
+/* blog-css-started */
+.h_blog_span {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.h_bolg_head {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+/* blog-css-ended */

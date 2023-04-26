@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: grey;
+}
+
+p,
+h2,
+h4 {
+    margin-bottom: 0;
+}
+
+.contact-introducing {
+    color: #2FC6BD;
+    font-weight: bold;
+
+}
+
+.contact-what-does-it {
+    font-weight: bold;
+}
+
+.contact-p {
+    color: grey;
+    font-weight: 500;
+}
+
+.contact-icon-last {
+    color: #2FC6BD;
+    font-size: 35px;
+}
+
+.contact-icon-lasT {
+    color: #2FC6BD;
+    font-size: 35px;
+    padding: 18px;
+}
+
+.form-control {
+    border-radius: 20px;
+    /* border: none; */
+}
+
+.contact-submit-btn {
+    border: 1px solid #2FC6BD;
+    border-radius: 19.5px;
+    padding: 9px 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #2FC6BD;
+    background: transparent;
+    transition: .5s ease-in-out;
+}
+
+.contact-submit-btn:hover {
+    background-color: #2FC6BD;
+    color: #FFFFFF;
+}

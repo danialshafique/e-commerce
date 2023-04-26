@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- -------------------------bootstrap linking-------------------- -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <!-- -------------------------bootstrap linking-------------------- -->
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!-- ---------------------------------style-------------------------------- -->
+
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="./styles/footer.css" />
+  <link rel="stylesheet" href="./styles/header.css" />
+  <!-- -------------------------------style-------------------------------- -->
+  <title>Homepage</title>
+</head>
+
+<body>
+  <header id="website-header">
+    <!-- -------------navbar--------------- -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo Here</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog-main.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <div class="header-contact-info">
+            <span class="mail-info">
+              <img src="./assets/mail-icon.svg" alt="" />
+              <a>ecommerce@gmail.com</a>
+            </span>
+
+            <span class="phone-info">
+              <img src="./assets/phone-icon.svg" alt="" />
+              <a>+92 322 7654456</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- -------------navbar--------------- -->
+
+    <!-- -----------------------header-top-bar--------------------- -->
+    <div class="header-top-bar">
+      <div class="top-bar-content">
+        <div class="top-bar-content-child top-bar-category">
+          <img src="./assets/category-icon.svg" alt="" class="me-2" />
+          <h3 class="pt-2">Shop By Category</h3>
+        </div>
+
+        <div class="top-bar-content-child search-child">
+          <input type="email" placeholder="Type Here..." class="search-child-input" />
+          <span>
+            <button>Search</button>
+          </span>
+        </div>
+
+        <div class="top-bar-content-child d-flex justify-content-center top-bar-login-detail">
+          <img src="./assets/login-icon.svg" alt="" class="me-2" />
+          <p class="text-center">Login / Sign up</p>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------header-top-bar--------------------- -->
+  </header>
+
+  <!-- _______________________________________WEBSITE-HEADER DONE================================= -->
+
+  <!-- _____________________hero-section___________________________ -->
+  <div id="homepage-hero-section">
+    <div class="conatiner-fluid">
+      <div class="row hero-section-main-div">
+        <div class="col-lg-3 hero-section-top col-sm-12 col-md-6">
+          <ul>
+            <li>
+              <img src="./assets/mouse-icon.svg" alt="" />
+              <div>
+                <p class="align-self-center">Computer and Accessories</p>
+              </div>
+            </li>
+
+            <li>
+              <img src="./assets/camera-icon.svg" alt="" />
+              <p class="align-self-center">Cameras , Audios & Videos</p>
+            </li>
+
+            <li>
+              <img src="./assets/tablet-icon.svg" alt="" />
+              <p class="align-self-center">Phones & Tablets</p>
+            </li>
+
+            <li>
+              <img src="./assets/tv-icon.svg" alt="" />
+              <p class="align-self-center">TV & Display</p>
+            </li>
+
+            <li>
+              <img src="./assets/smart-phone-icon.svg" alt="" />
+              <p class="align-self-center">Smart Phone</p>
+            </li>
+
+            <li>
+              <img src="./assets/watch-icon.svg" alt="" />
+              <p class="align-self-center">Watches & Eye Wear</p>
+            </li>
+
+            <li>
+              <img src="./assets/headphone-icon.svg" alt="" />
+              <p class="align-self-center">Head Phone & Speakers</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 hero-section-center col-sm-12 col-md-12">
+          <div class="hero-section-images">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" style="
+                      background: url(./assets/slider-1.jpg);
+                      background-size: cover;
+                    ">
+                  <div class="slider-content">
+                    <h2>
+                      TV <br />
+                      Shop
+                    </h2>
+                    <button>Shop Now</button>
+                  </div>
+                </div>
+                <div class="swiper-slide" style="
+                      background: url(./assets/slider-2.jpg);
+                      background-size: cover;
+                    ">
+                  <div class="slider-content">
+                    <h2>
+                      TV <br />
+                      Shop
+                    </h2>
+                    <button>Shop Now</button>
+                  </div>
+                </div>
+                <div class="swiper-slide" style="
+                      background: url(./assets/slider-3.jpg);
+                      background-size: cover;
+                    ">
+                  <div class="slider-content">
+                    <h2>
+                      TV <br />
+                      Shop
+                    </h2>
+                    <button>Shop Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 hero-section-bottom col-sm-12 col-md-6">
+          <div class="hero-section-bottom-card text-center">
+            <img src="./assets/controller.svg" alt="" />
+            <h3>Sony Dual Shop 4 <br />+ USB 3.0 Cable</h3>
+            <div class="star text-center">
+              <span> <img src="./assets/good-star.svg" alt="" /></span>
+              <span> <img src="./assets/good-star.svg" alt="" /></span>
+              <span> <img src="./assets/good-star.svg" alt="" /></span>
+              <span> <img src="./assets/good-star.svg" alt="" /></span>
+              <span> <img src="./assets/bad-star.svg" alt="" /></span>
+            </div>
+            <h5><span class="seven-2-9">$729</span>$500</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- _____________________________________________TOP_CATEGORY________________________________________________ -->
+  <div id="top-category">
+    <div class="container-fluid">
+      <div class="section-heading">
+        <div class="heading-line-data">
+          <div class="heading-line"></div>
+        </div>
+        <h2 class="text-center">Top Category</h2>
+        <div class="heading-line-data">
+          <div class="heading-line"></div>
+        </div>
+      </div>
+      <div class="heading-description">
+        <p class="text-center">
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+          consectetur, adipisci velit,sed quia non numquam eius modi tempora
+          incidunt
+        </p>
+      </div>
+
+      <div class="top-category-cards">
+        <div class="row">
+          <div class="col-sm top-category-cards">
+            <img src="./assets/iphone14-promsx.svg" alt="" class="text-center" />
+            <h3>Smart Phone</h3>
+            <h4>17 Products</h4>
+          </div>
+          <div class="col-sm top-category-cards">
+            <img src="./assets/categoory-laptp.svg" alt="" />
+            <h3>Laptops</h3>
+            <h4>12 Products</h4>
+          </div>
+          <div class="col-sm top-category-cards">
+            <img src="./assets/category-headphones.svg" alt="" />
+            <h3>Head Phones</h3>
+            <h4>12 Products</h4>
+          </div>
+          <div class="col-sm top-category-cards">
+            <img src="./assets/category-smart-watches.svg" alt="" />
+            <h3>Smart Watches</h3>
+            <h4>17 Products</h4>
+          </div>
+          <div class="col-sm top-category-cards">
+            <img src="./assets/apple-ipad-pro-11.svg" alt="" />
+            <h3>Apple Tablets</h3>
+            <h4>17 Products</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ___________________________________________________STEPS_______________________________________________ -->
+
+  <div id="steps-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg step-card col-md-4">
+          <div class="number">
+            <h3>1</h3>
+          </div>
+          <div class="number-data">
+            <h4>Home Delivery</h4>
+            <p>The Euorpean Languages</p>
+          </div>
+        </div>
+        <div class="col-lg step-card col-md-4">
+          <div class="number">
+            <h3>2</h3>
+          </div>
+          <div class="number-data">
+            <h4>Order Now</h4>
+            <p>The Euorpean Languages</p>
+          </div>
+        </div>
+        <div class="col-lg step-card col-md-4">
+          <div class="number">
+            <h3>3</h3>
+          </div>
+          <div class="number-data">
+            <h4>Card Payment</h4>
+            <p>The Euorpean Languages</p>
+          </div>
+        </div>
+        <div class="col-lg step-card col-md-4">
+          <div class="number">
+            <h3>4</h3>
+          </div>
+          <div class="number-data">
+            <h4>High Quality</h4>
+            <p>The Euorpean Languages</p>
+          </div>
+        </div>
+        <div class="col-lg step-card col-md-4">
+          <div class="number">
+            <h3>5</h3>
+          </div>
+          <div class="number-data">
+            <h4>Order as Gift</h4>
+            <p>The Euorpean Languages</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ______________________________________________FOR-TRAVELS________________________________ -->
+  <div id="for-travel">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-7 for-travel-top col-md-12 col-sm-12">
+          <div class="section-heading">
+            <div class="heading-line-data">
+              <div class="heading-line"></div>
+            </div>
+            <h2 class="text-center">For Travellers</h2>
+            <div class="heading-line-data">
+              <div class="heading-line"></div>
+            </div>
+          </div>
+
+          <div class="for-travel-main-data">
+            <div class="for-travel-card">
+              <img src="./assets/category-headphones.svg" alt="" x. class="text-center" />
+              <h3>Smart Phone</h3>
+              <h4>17 Products</h4>
+            </div>
+            <div class="for-travel-card">
+              <img src="./assets/wirless-mouse.svg" alt="" class="text-center" width="202" height="97" />
+              <h3>Smart Phone</h3>
+              <h4>17 Products</h4>
+            </div>
+            <div class="for-travel-card">
+              <img src="./assets/mouse-pad.svg" alt="" class="text-center" width="199" height="126" />
+              <h3>Smart Phone</h3>
+              <h4>17 Products</h4>
+            </div>
+            <div class="for-travel-card">
+              <img src="./assets/wireless-keyboard.svg" alt="" class="text-center" width="246" height="89" />
+              <h3>Smart Phone</h3>
+              <h4>17 Products</h4>
+            </div>
+            <div class="for-travel-card">
+              <img src="./assets/wireless-handfree.svg" alt="" class="text-center" />
+              <h3>Smart Phone</h3>
+              <h4>17 Products</h4>
+            </div>
+            <div class="for-travel-card">
+              <img src="./assets/category-smart-watches.svg" alt="" class="text-center" />
+              <h3>Smart Phone</h3>
+              <h4>17 Products</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 for-travel-bottom col-md-12 col-sm-12">
+          <div class="for-travel-bottom-data">
+            <img src="./assets/big-chair-img.svg" alt="" />
+            <p class="text-center">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit .
+              Maecenas eu eleifend metus, quis ultricies nis
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- _______________________________________________TOP-MOBILE-PHONES_______________________________________________ -->
+
+  <div id="top-mobile-phones">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="top-mobile-phones-top col-lg-5">
+          <div class="top-mobile-phones-content">
+            <h2>TOP MOBILES PHONES</h2>
+            <button>View All Products</button>
+          </div>
+        </div>
+        <div class="top-mobile-phones-bottom col-lg-7"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- _________________________________________LIST______________________________________ -->
+  <div id="list-section">
+    <div class="container-fluid">
+      <div class="list-cards">
+        <div class="row">
+          <div class="col-sm list-card mt-5 d-flex justify-content-center">
+            <div class="list-cards-img d-flex justify-content-center align-items-center">
+              <img src="./assets/list-1.svg" class="index-list-hover" alt="" />
+            </div>
+            <h3>Smart Phone</h3>
+            <h4>17 Products</h4>
+          </div>
+          <div class="col-sm list-card mt-5">
+            <div class="list-cards-img d-flex justify-content-center align-items-center">
+              <img src="./assets/list-2.svg" class="index-list-hover" alt="" />
+            </div>
+            <h3>Laptops</h3>
+            <h4>12 Products</h4>
+          </div>
+          <div class="col-sm list-card mt-5">
+            <div class="list-cards-img d-flex justify-content-center align-items-center">
+              <img src="./assets/list-3.svg" class="index-list-hover" alt="" />
+            </div>
+            <h3>Head Phones</h3>
+            <h4>12 Products</h4>
+          </div>
+          <div class="col-sm list-card mt-5">
+            <div class="list-cards-img d-flex justify-content-center align-items-center">
+              <img src="./assets/list-4.svg" class="index-list-hover" alt="" />
+            </div>
+            <h3>Smart Watches</h3>
+            <h4>17 Products</h4>
+          </div>
+          <div class="col-sm list-card mt-5">
+            <div class="list-cards-img d-flex justify-content-center align-items-center ">
+              <img src="./assets/list-5.svg" class="index-list-hover" alt="" />
+            </div>
+            <h3>Apple Tablets</h3>
+            <h4>17 Products</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ________________________________________________________Customer Says_______________________________________________ -->
+  <div id="customer-says">
+    <div class="container-fluid">
+      <div class="section-heading">
+        <h2>Customer Says</h2>
+        <div class="heading-line-data">
+          <div class="heading-line"></div>
+        </div>
+      </div>
+
+      <div class="say-customers-cards-row row">
+        <div class="col-lg-4 say-customer-card">
+          <div class="say-customer-card-content">
+            <div class="customer-info d-flex">
+              <img src="./assets/customer-says-comma.svg" alt="" />
+              <div>
+                <h3>Denis Zakerburg</h3>
+                <h6>Marketing Management Remmi</h6>
+              </div>
+            </div>
+            <div class="customer-review">
+              <p>
+                There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteration .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 say-customer-card">
+          <div class="say-customer-card-content">
+            <div class="customer-info d-flex">
+              <img src="./assets/customer-says-comma.svg" alt="" />
+              <div>
+                <h3>Denis Zakerburg</h3>
+                <h6>Marketing Management Remmi</h6>
+              </div>
+            </div>
+            <div class="customer-review">
+              <p>
+                There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteration .
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 say-customer-card">
+          <div class="say-customer-card-content">
+            <div class="customer-info d-flex">
+              <img src="./assets/customer-says-comma.svg" alt="" />
+              <div>
+                <h3>Denis Zakerburg</h3>
+                <h6>Marketing Management Remmi</h6>
+              </div>
+            </div>
+            <div class="customer-review">
+              <p>
+                There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteration .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ___________________________________________________SUMMER-SALE________________________________________ -->
+
+  <div id="summer-sale">
+    <div class="container-fluid">
+      <div class="summer-sale-content">
+        <div class="row">
+          <div class="col-lg-6 summer-sale-top">
+            <h4>Beat Solo Air</h4>
+            <h2>Summer Sale</h2>
+            <p>
+              Company that’s grown from 270 grown fro, to 480 employees in the
+              last 12 months And Watch 12 series and sale open is i8 series
+            </p>
+            <button>Shop Now</button>
+          </div>
+          <div class="col-lg-6 summer-sale-bottom d-flex justify-content-center">
+            <img src="./assets/big-watch-img.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ___________________________________________________OUR-BRANDS________________________________________ -->
+  <div id="our-brands">
+    <div class="container-fluid">
+      <div class="section-heading">
+        <h2>Our Brands</h2>
+        <div class="heading-line-data">
+          <div class="heading-line"></div>
+        </div>
+      </div>
+
+      <div class="our-brands-logo-part">
+        <div class="our-brand-logo mt-5">
+          <img src="./assets/brand-1.svg" alt="" />
+        </div>
+        <div class="our-brand-logo mt-5">
+          <img src="./assets/brand-2.svg" alt="" />
+        </div>
+        <div class="our-brand-logo mt-5">
+          <img src="./assets/brand-3.svg" alt="" />
+        </div>
+        <div class="our-brand-logo mt-5">
+          <img src="./assets/brand-4.svg" alt="" />
+        </div>
+        <div class="our-brand-logo mt-5">
+          <img src="./assets/brand-5.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- _______________________________________________________Footer__________________________________________________ -->
+
+  <footer id="footer">
+    <div class="container-fluid">
+      <div class="footer-content">
+        <div class="footer-row about-row">
+          <h2 class="footer-row-heading">About</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque luctus mi dui, vel rutrum massa vehicula non. Orci
+            varius natoque penatibus et magnis dis parturient montes, nascetur
+            ridiculus mus
+          </p>
+        </div>
+        <div class="footer-row quick-row">
+          <h2 class="footer-row-heading">Quick Links</h2>
+          <ul>
+            <li><a href="">News</a></li>
+            <li><a href="">Article</a></li>
+            <li><a href="">Help center</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">License</a></li>
+            <li><a href="">Freebies</a></li>
+          </ul>
+        </div>
+        <div class="footer-row category-row">
+          <h2 class="footer-row-heading">Category Links</h2>
+          <ul>
+            <li><a href="">Graphics</a></li>
+            <li><a href="">Video</a></li>
+            <li><a href="">Presentation</a></li>
+            <li><a href="">Photos</a></li>
+            <li><a href="">Font</a></li>
+            <li><a href="">Web template</a></li>
+          </ul>
+        </div>
+        <div class="footer-row follow-row">
+          <div class="follow-heading-and-social-links">
+            <h2 class="footer-row-heading">Follow Us</h2>
+            <div class="social-links">
+              <img src="./assets/footer-social-1.svg" alt="" />
+              <img src="./assets/footer-social-2.svg" alt="" />
+              <img src="./assets/footer-social-3.svg" alt="" />
+            </div>
+          </div>
+
+          <h3>Subscribe</h3>
+          <p class="text-white">Send me tips, trends, freebies, updates & offers.</p>
+          <div class="footer-email-input">
+            <input type="email" placeholder="Email Address" class="footer-email-input-main" />
+            <button>Search</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-rights">
+        <p>@2023 ElectronicShop-All rights reserved</p>
+        <p>Terms & Conditions Privacy</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- -------------------------bootstrap linking-------------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <!-- -------------------------bootstrap linking-------------------- -->
+</body>
+
+</html>

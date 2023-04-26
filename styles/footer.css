@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    background: #2D2D2D;
+    border-radius: 60px 60px 0px 0px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 4vw 80px 4vw;
+}
+
+.footer-content .footer-row-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.about-row {
+    flex-basis: 35%;
+}
+
+.about-row p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    padding-right: 60px;
+
+}
+
+.quick-row {
+    flex-basis: 20%;
+}
+
+.category-row {
+    flex-basis: 20%;
+}
+
+.follow-row {
+    flex-basis: 25%;
+}
+
+.follow-row .follow-heading-and-social-links {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 18px;
+    border-bottom: 1px solid white;
+}
+
+.follow-row .follow-heading-and-social-links img {
+    margin: 0 8px;
+}
+
+.follow-row h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    padding: 16px 0 8px 0;
+}
+
+.follow-row p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8C8CB0;
+    padding-bottom: 35px;
+}
+
+.follow-row .footer-email-input-main {
+    background: transparent;
+    border: 1px solid #FFFCFC;
+    border-radius: 100px 0px 0px 100px;
+    padding: 9.5px 16px;
+    outline: none;
+    width: 72%;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.follow-row .footer-email-input-main::placeholder {
+    color: #FFFFFF;
+}
+
+.follow-row button {
+    position: absolute;
+    background: #1DD0C6;
+    border: 1px solid #FFFCFC;
+    border-radius: 0 100px 100px 0;
+    padding: 13px 23px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-left: -5px;
+
+}
+
+
+.footer-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content ul li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 8px 0;
+
+    color: #fff;
+    margin: 0;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-rights {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    margin: 0 4vw;
+    border-top: 1px solid white;
+}
+
+.footer-rights p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #8C8CB0;
+
+}
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+    .quick-row {
+        flex-basis: 100%;
+        margin-top: 35px;
+    }
+
+    .category-row {
+        flex-basis: 100%;
+        margin-top: 35px;
+    }
+
+    .follow-row {
+        flex-basis: 100%;
+        margin-top: 35px;
+    }
+
+    .about-row {
+        flex-basis: 100%;
+    }
+
+    .about-row p {
+        padding-right: 0px;
+    }
+
+    .footer-rights {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-rights p {
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width:989px) {
+    .quick-row {
+        flex-basis: 30%;
+    }
+
+    .category-row {
+        flex-basis: 30%;
+    }
+
+    .follow-row {
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+
+    .about-row {
+        flex-basis: 40%;
+    }
+
+    .follow-row .footer-email-input-main {
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width:1200px) {
+    .quick-row {
+        flex-basis: 17.5%;
+    }
+
+    .category-row {
+        flex-basis: 17.5%;
+    }
+
+    .follow-row {
+        flex-basis: 35%;
+    }
+
+    .about-row {
+        flex-basis: 30%;
+    }
+}

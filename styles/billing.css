@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p,h2,h4{
+    margin-bottom: 0;
+}
+
+/* __________________________________________________BILLING_MAIN_CONTENT_________________________________________ --> */
+
+#billing-page .billing-main-content{
+    padding: 95px 4vw 95px 4vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#billing-page .billing-main-content .left{
+    flex-basis: 60%;
+}
+
+
+#billing-page .billing-main-content .right{
+    flex-basis: 30%;
+}
+
+
+#billing-page .billing-main-content .left .left-billing-details h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+
+}
+
+#billing-page .billing-main-content .left .left-billing-details-input-fields{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-billing-details-input-fields .billing-details-input{
+    flex-basis: 43%;
+    margin-bottom: 35px;
+}
+
+.left-billing-details-input-fields label{
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+}
+
+.left-billing-details-input-fields input{
+    width: 100%;
+    padding: 8px 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+/* <!-- _----------------------      <h2>Ship to Different Address</h2>---------------- --> */
+#billing-page .billing-main-content .left .left-ship-to-different-address{
+    padding-top: 10px;
+}
+#billing-page .billing-main-content .left .left-ship-to-different-address h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+
+}
+
+#billing-page .billing-main-content .left .left-ship-input-fields{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-ship-input-fields .ship-to-different-address-input{
+    flex-basis: 43%;
+    margin-bottom: 35px;
+}
+
+.left-ship-input-fields label{
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+}
+
+.left-ship-input-fields input{
+    width: 100%;
+    padding: 8px 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.left-below-buttons button:first-child{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: white;
+    padding: 13px 26px;
+    background: #2FC6BD;
+border-radius: 24.5px;
+border: none;
+margin-right: 50px;
+margin-top: 30px;
+    
+}
+
+.left-below-buttons button:last-child{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #2FC6BD;
+    padding: 13px 26px;
+    background:transparent;
+    border: 2px solid #2FC6BD ;
+border-radius: 24.5px;
+margin-top: 30px;
+    
+}
+
+
+/* <!-- ------------------------------left-side-end--------------------------- --> */
+.right .right-card{
+    padding: 26px;
+    background: #FFFFFF;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.02), 3px 3px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+.right-card .right-heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+/* <!-- --------------------------------------------------product-details---------- --> */
+.right-product-detail{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+
+}
+
+.right-product-details-data{
+    padding-left: 15px;
+}
+.right-product-detail h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.right-product-detail p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.right-product-detail h6{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+
+color: #2FC6BD;
+padding-top: 8px;
+
+}
+
+/* <!-- -----------------------------------------right-side-shipping-details --> */
+.shipping-details{
+    padding-top: 56px;
+}
+
+.right-part-heading{
+ font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+padding-bottom: 5px;
+}
+
+.shipping-prices{
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping-prices p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 186.02%;
+color: rgba(0, 0, 0, 0.5);
+}
+
+/* <!-- ----------------------------------right-side-total-bill--------------------------- --> */
+
+.right-total-bill{
+    padding-top: 40px;
+}
+
+.right-total-bill .total-bill-price{
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-bill-price p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 186.02%;
+    color: rgba(0, 0, 0, 0.5); 
+}
+
+/* <!-- ------------------------------------right-terms&Conditions----------------------- --> */
+
+.right-terms-and-conditions{
+    padding-top: 40px;
+}
+
+.right-terms-and-conditions p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.right button{
+    text-align: center;
+    margin-top: 35px;
+    padding: 10px 0;
+    width: 80%;
+    background: #2FC6BD;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    #billing-page .billing-main-content{
+     flex-wrap: wrap;
+    }
+
+    #billing-page .billing-main-content .left{
+        flex-basis: 100%;
+       }
+
+       #billing-page .billing-main-content .right{
+        flex-basis: 100%;
+       }
+
+       .left-ship-input-fields .ship-to-different-address-input{
+        flex-basis: 100%;
+    }
+
+    .left-billing-details-input-fields .billing-details-input{
+        flex-basis: 100%;
+    }
+
+    .right .right-card{
+      margin-top: 50px;
+    }
+
+    .left-below-buttons{
+        text-align: center;
+    }
+    .left-below-buttons button:first-child{
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 989px){
+    #billing-page .billing-main-content{
+        flex-wrap: wrap;
+       }
+   
+       #billing-page .billing-main-content .left{
+           flex-basis: 100%;
+          }
+   
+          #billing-page .billing-main-content .right{
+           flex-basis: 100%;
+          }
+
+          .right .right-card{
+            margin-top: 50px;
+          }
+      
+    
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px){
+    #billing-page .billing-main-content .left{
+        flex-basis: 60%;
+       }
+
+       #billing-page .billing-main-content .right{
+        flex-basis: 36%;
+       }
+
+       .left-ship-input-fields .ship-to-different-address-input{
+        flex-basis: 46%;
+    }
+
+    .left-billing-details-input-fields .billing-details-input{
+        flex-basis: 46%;
+    }
+}

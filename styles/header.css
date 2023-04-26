@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#website-header {
+    background: #262639;
+    border-radius: 0px 0px 60px 60px;
+    overflow-x: hidden;
+}
+
+#website-header .navbar {
+    background-color: #2D2D2D;
+    border-radius: 0px 0px 40px 40px;
+    color: white;
+    min-height: 65px;
+    padding: 0 4vw;
+}
+
+
+
+#website-header .navbar-brand {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+
+
+
+#website-header .nav-item a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #B9B4B4;
+    transition: all ease .3s;
+
+}
+
+
+#website-header .nav-item a:hover {
+    color: white;
+}
+
+#website-header .nav-item .active {
+    color: white;
+}
+
+.header-contact-info {
+    float: right;
+}
+
+.header-contact-info a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+
+}
+
+.header-contact-info img {
+    margin-right: 2px;
+}
+
+#website-header .header-top-bar .top-bar-content {
+    min-height: 80px;
+    width: 100%;
+    padding: 0 5vw;
+}
+
+.top-bar-category {
+    display: flex;
+}
+
+#website-header .top-bar-content-child h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.search-child .search-child-input {
+    width: 35vw;
+    background: #4E4E65;
+    border-radius: 100px;
+    padding: 18px 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #fff;
+    border: none;
+    outline: none;
+
+}
+
+.search-child-input::placeholder {
+    color: #FFFFFF;
+}
+
+.search-child button {
+
+    padding: 18px 28px;
+    background: #2FC6BD;
+    border-radius: 0px 100px 100px 0px;
+    margin-left: -40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    border: none;
+}
+
+.top-bar-content-child p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #B9B4B4;
+
+}
+
+.top-bar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 980px) {
+    #website-header .navbar-collapse {
+        padding-left: 6vw;
+        justify-content: space-between;
+    }
+
+    #website-header .nav-item {
+        margin: 0 1.3vw;
+    }
+
+    .header-contact-info .mail-info {
+        margin-right: 4vw;
+    }
+
+    #website-header .header-top-bar .top-bar-content {
+        min-height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+
+}
+
+/* ---------------------------------------Small Screen Laptops -------------------------- */
+
+@media screen and (min-width: 980px) and (max-width: 1170px) {
+    #website-header .navbar-collapse {
+        padding-left: 2vw;
+    }
+
+    #website-header .nav-item {
+        margin: 0 .5vw;
+    }
+
+    .header-contact-info .mail-info {
+        margin-right: 2.5vw;
+    }
+
+
+
+}
+
+@media screen and (min-width: 320px) and (max-width:989px) {
+
+    .top-bar-category {
+        display: none;
+
+    }
+
+    .header-contact-info {
+        float: left;
+
+        padding-bottom: 20px;
+    }
+
+    .mail-info {
+        padding-right: 30px;
+    }
+}
+
+/* ---------------------------------------MOBILE SCREEN -------------------------- */
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .header-contact-info {
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+
+        padding-bottom: 20px;
+    }
+
+    .mail-info {
+        padding-right: 30px;
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+    #website-header .header-top-bar .top-bar-content {
+        justify-content: center;
+
+    }
+
+    .search-child {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .search-child .search-child-input {
+        width: 70%;
+        margin-top: 30px;
+    }
+
+    .top-bar-login-detail {
+        padding: 30px 0 30px 0;
+    }
+}
+
+/* --------------------------------------IPAD-------------------------- */
+@media screen and (min-width: 768px) {
+    #website-header .header-top-bar .top-bar-content {
+        justify-content: space-between;
+
+    }
+}

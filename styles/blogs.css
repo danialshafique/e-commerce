@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p,h2,h4,h5,h6{
+    margin-bottom: 0;
+}
+
+/* <!-- ______________________________________________blogs-Main_Cards__________________________________________ --> */
+
+#blogs .blogs-main-content{
+    padding: 0px 4vw 95px 4vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#blogs .blogs-main-content .blogs-card{
+    width: 411px;
+    padding-top: 95px;
+}
+
+#blogs .blogs-main-content .blogs-card img{
+    width: 100%;
+}
+
+#blogs .blogs-main-content .blogs-card .blog-info{
+    display: flex;
+    padding-top: 22px;
+}
+#blogs .blogs-main-content .blogs-card .blog-info p:first-child{
+    margin-right: 30px;
+}
+#blogs .blogs-main-content .blogs-card .blog-info p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#blogs .blogs-main-content .blogs-card h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #000000;
+    padding-top: 6px;
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width:767px) {
+    #blogs .blogs-main-content{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:990px){
+    #blogs .blogs-main-content .blogs-card{
+        width: 320px;
+        padding-top: 95px;
+    }
+}
