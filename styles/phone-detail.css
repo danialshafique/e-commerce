@@ -92,7 +92,30 @@
     color: #2FC6BD;
 }
 
+.mobile-detail-hover:hover {
+    transform: rotateY(360deg);
+    transition: 10s ease-in-out;
+}
 
+.laptop-detail-hover:hover {
+    transform: rotateY(180deg);
+    transition: 2s ease-in-out;
+}
+
+.headphone-detail-hover:hover {
+    transform: rotateY(180deg);
+    transition: 2s ease-in-out;
+}
+
+.smartwatch-detail-hover:hover {
+    transform: rotateY(180deg);
+    transition: 2s ease-in-out;
+}
+
+.apple-tablat-detail-hover:hover {
+    transform: rotateY(180deg);
+    transition: 2s ease-in-out;
+}
 
 .description {
     margin: 0px;

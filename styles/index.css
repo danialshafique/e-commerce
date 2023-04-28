@@ -509,6 +509,11 @@ h4 {
   padding: 10px 40px 0 40px;
 }
 
+.for-travel-card:hover {
+  /* transform: scale(1.01);
+  transition: 3s all; */
+}
+
 @media screen and (max-width:1439px) {
   #for-travel .section-heading .heading-line-data {
     display: none;
@@ -983,4 +988,9 @@ h4 {
   .our-brand-logo {
     padding: 0 20px;
   }
+}
+
+.cairbhai:hover {
+  transform: rotateY(360deg);
+  transition: 4s ease-in-out;
 }
